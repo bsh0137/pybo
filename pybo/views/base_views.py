@@ -1,6 +1,6 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
-from django.db.models import Q, Countㅇ
+from django.db.models import Q, Count
 from ..models import Question
 
 def index(request):
